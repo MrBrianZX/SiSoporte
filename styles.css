@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+.container-fluid{
+    background: rgb(5,128,66);
+}
+
+.container{
+    background: yellow;
+}
