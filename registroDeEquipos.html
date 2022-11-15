@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sistema Integral de Soporte Técnico</title>
+	<script src="main.js"></script>
+	<!-- CSS Manuales -->
+	<link rel="stylesheet" href="styles/styles.css">
+	<!-- CSS por Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta charset="utf-8"> 
+</head>
+
+<body>
+	<!-- Contenedor de barra principal -->
+	<div class="header">
+		<!-- Elementos del contenedor -->
+		<div class="navbar-header col-md-12">
+			<div class="navbar-header navbar-header-min col-md-2">
+				<h1 class="logo"> <a href="http://www.uabc.mx/" target="_blank" rel="noopener"><img width="150" height="150" alt="Escudo univesitario UABC" data-src="media/images/uabcLogo.png" class=" ls-is-cached lazyloaded" src="media/images/uabcLogo.png"><noscript><img width="125" height="125" src="media/images/uabcLogo.png" alt="Escudo univesitario UABC"></noscript></a></h1> </div>
+			<h1 class="text-center text-white" style="margin-top: 50px;font-weight: 500; font-size: %; font-family: 'Proxima Nova';"> Universidad Autónoma de Baja California</h1>
+			<h2 class="text-center text-white" style="font-weight: 500; font-family: 'Proxima Nova';"> Sistema Integral de Soporte Tecnico</h2> </div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid"> <a class="navbar-brand" href="#">Inicio</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<!-- <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Inicio</a> </li> -->
+
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Equipos</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#">Registro de Equipos</a></li>
+								<li><a class="dropdown-item" href="#">Dar de Alta Equipo</a></li>
+                                <li><a class="dropdown-item" href="#">Actualizar información de Equipo</a></li>
+                                <li><a class="dropdown-item" href="#">Entrega de Equipos </a></li>
+                                <li><a class="dropdown-item" href="#">Devolucion de Equipos </a></li>
+								<li><a class="dropdown-item" href="#">Dar de Baja Equipo</a></li>
+							</ul>
+						</li>
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Propietarios</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#">Registro de propietarios</a></li>
+								<li><a class="dropdown-item" href="#">Registrar propietario </a></li>                                
+								<li><a class="dropdown-item" href="#">Actualizar información de propietario</a></li>
+							</ul>
+						</li>
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mantenimientos</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#">Registro de mantenimientos</a></li>
+								<li><a class="dropdown-item" href="#">Registrar mantenimiento</a></li>
+								<li><a class="dropdown-item" href="#">Algo más aquí</a></li>
+							</ul>
+						</li>                        
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Soporte</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#">Registro de Personal de Soporte</a></li>
+								<li><a class="dropdown-item" href="#">Registrar Personal de Soporte</a></li>
+								<li><a class="dropdown-item" href="#">Dar de Baja Personal de Soporte</a></li>
+							</ul>
+						</li>
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tareas</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li><a class="dropdown-item" href="#">---- </a></li>
+                            </ul>
+                        <!--<li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Consulta Personalizada</a> </li> -->
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Cerrar Sesión</a> </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+    <div class="contenedor">
+        <div class="foto">
+        <img src="media/images/placeholder.png" class="rounded" style="height: 300px" alt="foto">
+        </div>
+
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">Código UABC</label>
+                <input type="text" class="form-control" id="validationCustom01">
+                <div class="valid-feedback"> Looks good! </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">No. Serie</label>
+                <input type="text" class="form-control" id="validationCustom02">
+                <div class="valid-feedback"> Looks good! </div>
+            </div>            
+            
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Marca</label>
+                <input type="text" class="form-control" id="validationCustom02" required disabled>
+                <div class="valid-feedback"> Looks good! </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom05" class="form-label">Modelo</label>
+                <input type="text" class="form-control" id="validationCustom05" required disabled>
+                <div class="invalid-feedback"> Please provide a valid zip. </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">Tipo</label>
+                <input type="text" class="form-control" id="validationCustom03" required disabled>
+                <div class="invalid-feedback"> Please provide a valid city. </div>
+            </div>
+            
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">CPU</label>
+                <input type="text" class="form-control" id="validationCustom03" required disabled>
+                <div class="invalid-feedback"> Please provide a valid city. </div>
+            </div>            
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">RAM</label>
+                <input type="text" class="form-control" id="validationCustom03" required disabled>
+                <div class="invalid-feedback"> Please provide a valid city. </div>
+            </div>            
+            <div class="col-md-4">
+                <label for="validationCustom03" class="form-label">HDD</label>
+                <input type="text" class="form-control" id="validationCustom03" required disabled>
+                <div class="invalid-feedback"> Please provide a valid city. </div>
+            </div>
+            
+            <div class="col-md-12">
+                <label for="validationCustom03" class="form-label">Perifericos Extra</label>
+                <input type="text" class="form-control" id="validationCustom03" required disabled>
+                <div class="invalid-feedback"> Please provide a valid city. </div>
+            </div>
+            
+            <div class="col-md-12">
+              <label for="exampleFormControlTextarea1" class="form-label">Notas</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" style="resize: none" disabled></textarea>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-3">
+                <center><button class="btn btn-primary" type="submit" style="margin-top: 15px; background: red;">Limpiar</button></center>
+            </div>
+            <div class="col-3">
+                <center><button class="btn btn-primary" type="submit" style="margin-top: 15px;">Registrar Equipo</button></center>
+            </div>
+            <div class="col-md-3"></div>
+        </form>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

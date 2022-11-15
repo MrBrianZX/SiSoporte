@@ -1,4 +1,5 @@
 h1 {
+    font-size: 300px;
     text-align: center;
     margin-right:250px;
 }
@@ -8,7 +9,7 @@ h2 {
     margin-right: 250px;
 }
 
-.container-fluid{
+div.header{
     background: rgb(5,128,66);
 }
 
@@ -21,3 +22,18 @@ h2 {
     margin-right:-250px;
 }
 
+.contenedor{
+    height: auto;
+    /*width: 80%;*/
+    margin: 2%;
+    
+}
+
+textarea {
+  resize: none;
+}
+.foto{
+  display: flex;
+  justify-content: center;
+    
+}
