@@ -5,35 +5,32 @@ h1 {
 }
 
 h2 {
+    font-size: 50px;
     text-align: center;
     margin-right: 250px;
 }
 
 div.header{
-    background: rgb(5,128,66);
+    background: rgb(5, 128, 66);
 }
 
-.container{
-    background: yellow;
-}
 
 .logo{
     float:left; 
-    margin-right:-250px;
+    margin-right:10px;
 }
 
 .contenedor{
     height: auto;
-    /*width: 80%;*/
     margin: 2%;
-    
 }
 
 textarea {
-  resize: none;
+    resize: none;
 }
+
 .foto{
-  display: flex;
-  justify-content: center;
-    
+    display: flex;
+    justify-content: center; 
 }
+
