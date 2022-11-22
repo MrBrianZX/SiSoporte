@@ -34,3 +34,22 @@ textarea {
     justify-content: center; 
 }
 
+.contenedorT1{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorT2{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorT3{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorBotones{
+    height: auto;
+    margin: 2%;
+}
