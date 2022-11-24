@@ -34,3 +34,40 @@ textarea {
     justify-content: center; 
 }
 
+<<<<<<< Updated upstream
+=======
+.contenedorT1{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorT2{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorT3{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorBotones{
+    height: auto;
+    margin: 2%;
+}
+
+.contenedorTareas{
+    height: auto;
+    margin: 2%;
+}
+
+.nav-link{
+    color: white;
+    background-color: rgb(224,148,28);
+}
+
+.nav-link:focus{
+    background-color: rgb(5, 128, 66);
+}
+
+>>>>>>> Stashed changes
